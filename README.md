@@ -19,30 +19,21 @@ Key steps in this project:
 ```
 📁 emotion-music-ml/
 │── 📄 README.md                 # Project documentation
-│── 📄 requirements.txt          # List of required Python libraries
 │── 📄 .gitignore                # Files to ignore in Git
-│── 📁 datasets/                 # All datasets used
-│   ├── merged_emotion_audio_features.csv  # Final cleaned dataset
 │── 📁 notebooks/                # Jupyter notebooks for different stages
-│   ├── datacollection&prep.ipynb      # Data collection & preprocessing
-│   ├── musicfeature_emtions.ipynb     # Feature extraction & emotion mapping
-│   ├── ML.ipynb                       # Machine learning model training
-│── 📁 src/                      # Source code
-│   ├── data_processing.py       # Functions for cleaning & merging datasets
-│   ├── feature_analysis.py      # Feature importance & correlation analysis
-│   ├── train_models.py          # ML training & evaluation scripts
+│   ├── DataCollection&Wrangling.ipynb           # Data collection & Wrangling
+│   ├── Preprocessing&MachineLearning.ipynb      # Data Preprocessing & Machine Learning Models
 │── 📁 results/                   # Model performance reports & graphs
-│   ├── feature_importance.png
-│   ├── confusion_matrix.png
+│   ├── Decoding Emotion in Music_MACS30100 Project.pdf
 ```
 ----
 
 ## 📊 Datasets Used
 1️⃣ *Music Features Dataset*
-- Source: Spotify Audio Features dataset
+- Source: (Spotify Audio Features dataset)[https://www.kaggle.com/datasets/maltegrosse/8-m-spotify-tracks-genre-audio-features]
 - Content: Danceability, energy, loudness, valence, tempo, and other musical properties.
 2️⃣ *Emotion Labels*
-- Source: Last.fm & curated datasets
+- Source: (Last.fm Million Songs)[http://millionsongdataset.com/lastfm/]
 - Content: Songs labeled with emotions such as happy, sad, angry, calm, energetic, etc.
 3️⃣ *Processed Dataset*
 - merged_emotion_audio_features.csv → Final dataset after merging all features & labels.
