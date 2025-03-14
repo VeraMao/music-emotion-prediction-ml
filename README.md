@@ -16,6 +16,7 @@ Key steps in this project:
 5. Binary Classification for Feature Evaluation → Testing individual feature impact in classification.
 
 ## 📂 Project Structure
+```
 📁 emotion-music-ml/
 │── 📄 README.md                 # Project documentation
 │── 📄 requirements.txt          # List of required Python libraries
@@ -33,7 +34,7 @@ Key steps in this project:
 │── 📁 results/                   # Model performance reports & graphs
 │   ├── feature_importance.png
 │   ├── confusion_matrix.png
-
+```
 ----
 
 ## 📊 Datasets Used
